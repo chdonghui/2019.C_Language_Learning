@@ -1,0 +1,19 @@
+﻿빌드 시작: 2020-01-04 오후 6:35:27
+     1>2 노드의 "D:\이동희\project\0104\0104\0104.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Debug\0104.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\0104.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>d:\이동희\project\0104\0104\main.c(130): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 'gets' 선언을 참조하십시오.
+     1>d:\이동희\project\0104\0104\main.c(131): error C2143: 구문 오류 : ';'이(가) '형식' 앞에 없습니다.
+     1>d:\이동희\project\0104\0104\main.c(165): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+     1>d:\이동희\project\0104\0104\main.c(165): warning C4029: 선언된 정식 매개 변수 목록이 정의와 다릅니다.
+     1>"D:\이동희\project\0104\0104\0104.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.11
